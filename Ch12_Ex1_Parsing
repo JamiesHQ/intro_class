@@ -1,0 +1,36 @@
+# my_name = "Wendy"
+# print list(my_name)
+# numbers = "1,2,3,4,5"
+# print numbers.split(",")
+
+# fish = "One fish two fish red fish blue fish"
+# print fish.replace(" fish", " ")
+
+grocery_items = "item:apples, quantity:4, price:1.50\n"
+
+def grocery_bill(grocery_items):
+	split_list = grocery_items.split(",")
+	quantity_list = split_list[1].split(":")
+	quantity = int(quantity_list[1])
+	# print quantity
+	# print split_list
+	price_list = split_list[2]
+	# print price_list
+	price = price_list.split(":")
+	price = float(price[1])
+
+	print quantity
+
+
+
+
+
+
+
+
+	
+	# float(price)
+	grocery_bill = quantity * price
+	return grocery_bill
+print grocery_bill(grocery_items)
+	
