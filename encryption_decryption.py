@@ -13,9 +13,10 @@ def encrypt_decrypt_codes():
 
 def encrypt():
 	message = raw_input("Enter your secret message? > ")
-	for key in message: 
-		convert key to encrypt_decrypt_codes(message)
-	print 
+	for i in message: 
+		if i = encrypt_dict[i]
+	return encrypt_dict[i]
+	print encrypt_dict[i]
 
 def decrypt():
 	message = raw_input("Enter the message you'd like to decrypt? > ")
