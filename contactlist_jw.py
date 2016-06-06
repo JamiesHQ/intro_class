@@ -9,6 +9,7 @@ class Contact(object):
 	def send_email(self, message):
 		print "To: %s - %s" % (self.email, message)
 
+# Functions in progress- put in different module
 def save_contact(contact):
 	contacts = []
 	contacts.append(contact)

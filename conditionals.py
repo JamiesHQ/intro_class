@@ -33,7 +33,7 @@
 # 	print "Yeah, it's the weekend!"
 
 #Part2
-age = 20
+# age = 20
 
 '''Q1 & Q2'''
 # if age >= 18:
@@ -82,7 +82,7 @@ age = 20
 # 	print "Both numbers are odd."
 
 '''Q9'''
-fav_color = "green"
+# fav_color = "green"
 # if fav_color == "blue" or fav_color == "Blue":
 # 	print "My favorite color is blue!"
 # else:
